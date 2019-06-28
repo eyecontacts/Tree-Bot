@@ -9,6 +9,7 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
+//creates connection between console and bot
 client.on('message', msg => {
   switch (msg.content) {
     case "tree!water":
