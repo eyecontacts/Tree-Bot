@@ -1,0 +1,1158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'level' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData level
+8 silly fetchNamedPackageData level
+9 silly mapToRegistry name level
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'level',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'level',
+12 silly mapToRegistry   name: 'level',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/level
+14 verbose request uri https://registry.npmjs.org/level
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 8:46:06 PM
+17 verbose request id 84df6c72417fd83c
+18 verbose etag W/"a5ad964500b810594e17aba5c55fb6c7"
+19 verbose lastModified Sun, 07 Apr 2019 17:05:41 GMT
+20 http request GET https://registry.npmjs.org/level
+21 http 304 https://registry.npmjs.org/level
+22 verbose headers { date: 'Fri, 28 Jun 2019 00:46:05 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'set-cookie': [ '__cfduid=d9be62282f0c80f22345aa952c4c0f2a11561682765; expires=Sat, 27-Jun-20 00:46:05 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'cf-ray': '4edba446bdf2c550-ORD',
+22 verbose headers   age: '3407',
+22 verbose headers   etag: '"a5ad964500b810594e17aba5c55fb6c7"',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   'last-modified': 'Sun, 07 Apr 2019 17:05:41 GMT',
+22 verbose headers   vary: 'accept-encoding, accept',
+22 verbose headers   'x-amz-meta-rev': '129-0aa7f2f62e16b228a36c023ba823fd1e',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Fri, 28 Jun 2019 00:46:05 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'set-cookie': [ '__cfduid=d9be62282f0c80f22345aa952c4c0f2a11561682765; expires=Sat, 27-Jun-20 00:46:05 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'cf-ray': '4edba446bdf2c550-ORD',
+23 silly get     age: '3407',
+23 silly get     etag: '"a5ad964500b810594e17aba5c55fb6c7"',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     'last-modified': 'Sun, 07 Apr 2019 17:05:41 GMT',
+23 silly get     vary: 'accept-encoding, accept',
+23 silly get     'x-amz-meta-rev': '129-0aa7f2f62e16b228a36c023ba823fd1e',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/level from cache
+25 verbose get saving level to C:\Users\thege\AppData\Roaming\npm-cache\registry.npmjs.org\level\.cache.json
+26 verbose correctMkdir C:\Users\thege\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule level@5.0.1 checking installable status
+40 silly cache add args [ 'level', null ]
+41 verbose cache add spec level
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'level',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'level',
+42 silly cache add   name: 'level',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed level@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for level
+45 info addNameTag [ 'level', 'latest' ]
+46 silly mapToRegistry name level
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'level',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'level',
+49 silly mapToRegistry   name: 'level',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/level
+51 verbose addNameTag registry:https://registry.npmjs.org/level not in flight; fetching
+52 verbose get https://registry.npmjs.org/level not expired, no request
+53 silly addNameTag next cb for level with tag latest
+54 silly addNamed level@5.0.1
+55 verbose addNamed "5.0.1" is a plain semver version for level
+56 silly cache afterAdd level@5.0.1
+57 verbose afterAdd C:\Users\thege\AppData\Roaming\npm-cache\level\5.0.1\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\thege\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\thege\AppData\Roaming\npm-cache\level\5.0.1\package\package.json written
+60 silly fetchNamedPackageData leveldown
+61 silly mapToRegistry name leveldown
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'leveldown',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'leveldown',
+64 silly mapToRegistry   name: 'leveldown',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/leveldown
+66 verbose request uri https://registry.npmjs.org/leveldown
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 8:46:06 PM
+69 verbose etag W/"60f31e286bfc1f6d1c434c9e9dcde0ed"
+70 verbose lastModified Sat, 18 May 2019 21:19:29 GMT
+71 http request GET https://registry.npmjs.org/leveldown
+72 http 304 https://registry.npmjs.org/leveldown
+73 verbose headers { date: 'Fri, 28 Jun 2019 00:46:06 GMT',
+73 verbose headers   connection: 'keep-alive',
+73 verbose headers   'set-cookie': [ '__cfduid=d6892ac0e55e2fe1c89f1100bae9ac9f91561682766; expires=Sat, 27-Jun-20 00:46:06 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+73 verbose headers   'cf-cache-status': 'HIT',
+73 verbose headers   'cache-control': 'max-age=300',
+73 verbose headers   'cf-ray': '4edba447981cc550-ORD',
+73 verbose headers   age: '5209',
+73 verbose headers   etag: '"60f31e286bfc1f6d1c434c9e9dcde0ed"',
+73 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+73 verbose headers   'last-modified': 'Sat, 18 May 2019 21:19:29 GMT',
+73 verbose headers   vary: 'accept-encoding, accept',
+73 verbose headers   'x-amz-meta-rev': '194-3a4d517279b55078d112f01ab6e05668',
+73 verbose headers   server: 'cloudflare' }
+74 silly get cb [ 304,
+74 silly get   { date: 'Fri, 28 Jun 2019 00:46:06 GMT',
+74 silly get     connection: 'keep-alive',
+74 silly get     'set-cookie': [ '__cfduid=d6892ac0e55e2fe1c89f1100bae9ac9f91561682766; expires=Sat, 27-Jun-20 00:46:06 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+74 silly get     'cf-cache-status': 'HIT',
+74 silly get     'cache-control': 'max-age=300',
+74 silly get     'cf-ray': '4edba447981cc550-ORD',
+74 silly get     age: '5209',
+74 silly get     etag: '"60f31e286bfc1f6d1c434c9e9dcde0ed"',
+74 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+74 silly get     'last-modified': 'Sat, 18 May 2019 21:19:29 GMT',
+74 silly get     vary: 'accept-encoding, accept',
+74 silly get     'x-amz-meta-rev': '194-3a4d517279b55078d112f01ab6e05668',
+74 silly get     server: 'cloudflare' } ]
+75 verbose etag https://registry.npmjs.org/leveldown from cache
+76 verbose get saving leveldown to C:\Users\thege\AppData\Roaming\npm-cache\registry.npmjs.org\leveldown\.cache.json
+77 verbose correctMkdir C:\Users\thege\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+78 silly resolveWithNewModule leveldown@5.1.0 checking installable status
+79 silly cache add args [ 'leveldown@^5.0.0', null ]
+80 verbose cache add spec leveldown@^5.0.0
+81 silly cache add parsed spec Result {
+81 silly cache add   raw: 'leveldown@^5.0.0',
+81 silly cache add   scope: null,
+81 silly cache add   escapedName: 'leveldown',
+81 silly cache add   name: 'leveldown',
+81 silly cache add   rawSpec: '^5.0.0',
+81 silly cache add   spec: '>=5.0.0 <6.0.0',
+81 silly cache add   type: 'range' }
+82 silly addNamed leveldown@>=5.0.0 <6.0.0
+83 verbose addNamed ">=5.0.0 <6.0.0" is a valid semver range for leveldown
+84 silly addNameRange { name: 'leveldown', range: '>=5.0.0 <6.0.0', hasData: false }
+85 silly mapToRegistry name leveldown
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'leveldown',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'leveldown',
+88 silly mapToRegistry   name: 'leveldown',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/leveldown
+90 verbose addNameRange registry:https://registry.npmjs.org/leveldown not in flight; fetching
+91 verbose get https://registry.npmjs.org/leveldown not expired, no request
+92 silly addNameRange number 2 { name: 'leveldown', range: '>=5.0.0 <6.0.0', hasData: true }
+93 silly addNameRange versions [ 'leveldown',
+93 silly addNameRange   [ '0.0.0',
+93 silly addNameRange     '0.0.1',
+93 silly addNameRange     '0.0.2',
+93 silly addNameRange     '0.1.0',
+93 silly addNameRange     '0.1.1',
+93 silly addNameRange     '0.1.2',
+93 silly addNameRange     '0.2.0-b00',
+93 silly addNameRange     '0.2.0-b01',
+93 silly addNameRange     '0.2.0-b02',
+93 silly addNameRange     '0.1.3',
+93 silly addNameRange     '0.1.4',
+93 silly addNameRange     '0.2.0',
+93 silly addNameRange     '0.2.1',
+93 silly addNameRange     '0.3.0',
+93 silly addNameRange     '0.3.1',
+93 silly addNameRange     '0.4.0',
+93 silly addNameRange     '0.4.1',
+93 silly addNameRange     '0.2.3',
+93 silly addNameRange     '0.4.2',
+93 silly addNameRange     '0.4.3',
+93 silly addNameRange     '0.4.4',
+93 silly addNameRange     '0.2.4',
+93 silly addNameRange     '0.5.0',
+93 silly addNameRange     '0.6.0',
+93 silly addNameRange     '0.6.1',
+93 silly addNameRange     '0.6.2',
+93 silly addNameRange     '0.7.0',
+93 silly addNameRange     '0.8.0',
+93 silly addNameRange     '0.8.1',
+93 silly addNameRange     '0.8.2',
+93 silly addNameRange     '0.8.3',
+93 silly addNameRange     '0.9.0',
+93 silly addNameRange     '0.9.1',
+93 silly addNameRange     '0.9.2',
+93 silly addNameRange     '0.10.0',
+93 silly addNameRange     '0.10.1',
+93 silly addNameRange     '0.10.2',
+93 silly addNameRange     '1.0.0',
+93 silly addNameRange     '1.0.1',
+93 silly addNameRange     '0.10.3',
+93 silly addNameRange     '0.10.4',
+93 silly addNameRange     '1.0.2',
+93 silly addNameRange     '1.0.3',
+93 silly addNameRange     '1.0.4',
+93 silly addNameRange     '1.0.5',
+93 silly addNameRange     '0.10.5',
+93 silly addNameRange     '1.0.6',
+93 silly addNameRange     '1.0.7',
+93 silly addNameRange     '1.1.0',
+93 silly addNameRange     '1.2.0',
+93 silly addNameRange     '1.2.1',
+93 silly addNameRange     '1.2.2',
+93 silly addNameRange     '1.3.0',
+93 silly addNameRange     '1.3.1-0',
+93 silly addNameRange     '1.4.0',
+93 silly addNameRange     '1.4.1',
+93 silly addNameRange     '1.4.2',
+93 silly addNameRange     '1.4.3',
+93 silly addNameRange     '0.10.6',
+93 silly addNameRange     '1.4.4',
+93 silly addNameRange     '1.4.5',
+93 silly addNameRange     '1.4.6',
+93 silly addNameRange     '1.5.0',
+93 silly addNameRange     '1.5.1',
+93 silly addNameRange     '1.5.2',
+93 silly addNameRange     '1.5.3',
+93 silly addNameRange     '1.6.0',
+93 silly addNameRange     '1.7.0-0',
+93 silly addNameRange     '1.7.0',
+93 silly addNameRange     '1.7.1',
+93 silly addNameRange     '1.7.2',
+93 silly addNameRange     '1.8.0',
+93 silly addNameRange     '1.9.0',
+93 silly addNameRange     '2.0.0',
+93 silly addNameRange     '2.0.1',
+93 silly addNameRange     '2.0.2',
+93 silly addNameRange     '2.1.0',
+93 silly addNameRange     '2.1.1',
+93 silly addNameRange     '3.0.0',
+93 silly addNameRange     '3.0.1',
+93 silly addNameRange     '3.0.2',
+93 silly addNameRange     '4.0.0',
+93 silly addNameRange     '4.0.1',
+93 silly addNameRange     '5.0.0-0',
+93 silly addNameRange     '5.0.0-1',
+93 silly addNameRange     '5.0.0-2',
+93 silly addNameRange     '4.0.2',
+93 silly addNameRange     '5.0.0',
+93 silly addNameRange     '5.0.1',
+93 silly addNameRange     '5.0.2',
+93 silly addNameRange     '5.0.3',
+93 silly addNameRange     '5.1.0' ] ]
+94 silly addNamed leveldown@5.1.0
+95 verbose addNamed "5.1.0" is a plain semver version for leveldown
+96 silly cache afterAdd leveldown@5.1.0
+97 verbose afterAdd C:\Users\thege\AppData\Roaming\npm-cache\leveldown\5.1.0\package\package.json not in flight; writing
+98 verbose correctMkdir C:\Users\thege\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+99 verbose afterAdd C:\Users\thege\AppData\Roaming\npm-cache\leveldown\5.1.0\package\package.json written
+100 silly fetchNamedPackageData fast-future
+101 silly mapToRegistry name fast-future
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry data Result {
+104 silly mapToRegistry   raw: 'fast-future',
+104 silly mapToRegistry   scope: null,
+104 silly mapToRegistry   escapedName: 'fast-future',
+104 silly mapToRegistry   name: 'fast-future',
+104 silly mapToRegistry   rawSpec: '',
+104 silly mapToRegistry   spec: 'latest',
+104 silly mapToRegistry   type: 'tag' }
+105 silly mapToRegistry uri https://registry.npmjs.org/fast-future
+106 silly fetchNamedPackageData napi-macros
+107 silly mapToRegistry name napi-macros
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry data Result {
+110 silly mapToRegistry   raw: 'napi-macros',
+110 silly mapToRegistry   scope: null,
+110 silly mapToRegistry   escapedName: 'napi-macros',
+110 silly mapToRegistry   name: 'napi-macros',
+110 silly mapToRegistry   rawSpec: '',
+110 silly mapToRegistry   spec: 'latest',
+110 silly mapToRegistry   type: 'tag' }
+111 silly mapToRegistry uri https://registry.npmjs.org/napi-macros
+112 silly fetchNamedPackageData node-gyp-build
+113 silly mapToRegistry name node-gyp-build
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry data Result {
+116 silly mapToRegistry   raw: 'node-gyp-build',
+116 silly mapToRegistry   scope: null,
+116 silly mapToRegistry   escapedName: 'node-gyp-build',
+116 silly mapToRegistry   name: 'node-gyp-build',
+116 silly mapToRegistry   rawSpec: '',
+116 silly mapToRegistry   spec: 'latest',
+116 silly mapToRegistry   type: 'tag' }
+117 silly mapToRegistry uri https://registry.npmjs.org/node-gyp-build
+118 verbose request uri https://registry.npmjs.org/fast-future
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 8:46:06 PM
+121 verbose etag W/"3de5dc9e081ab4c78b811030e3d3f571"
+122 verbose lastModified Sun, 27 May 2018 00:24:49 GMT
+123 http request GET https://registry.npmjs.org/fast-future
+124 verbose request uri https://registry.npmjs.org/napi-macros
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 8:46:06 PM
+127 verbose etag W/"8f3f5104779d374226f9d60d2a8f3d5c"
+128 verbose lastModified Thu, 20 Jun 2019 10:03:24 GMT
+129 http request GET https://registry.npmjs.org/napi-macros
+130 verbose request uri https://registry.npmjs.org/node-gyp-build
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 8:46:06 PM
+133 verbose etag W/"da5afd25805df1c9cc74c075db453dc9"
+134 verbose lastModified Fri, 26 Apr 2019 14:45:21 GMT
+135 http request GET https://registry.npmjs.org/node-gyp-build
+136 http 304 https://registry.npmjs.org/napi-macros
+137 verbose headers { date: 'Fri, 28 Jun 2019 00:46:06 GMT',
+137 verbose headers   connection: 'keep-alive',
+137 verbose headers   'set-cookie': [ '__cfduid=d909276951710d564ccec2eecd84de1bc1561682766; expires=Sat, 27-Jun-20 00:46:06 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+137 verbose headers   'cf-cache-status': 'HIT',
+137 verbose headers   'cache-control': 'max-age=300',
+137 verbose headers   'cf-ray': '4edba4492d1525b9-ORD',
+137 verbose headers   age: '39',
+137 verbose headers   etag: '"8f3f5104779d374226f9d60d2a8f3d5c"',
+137 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+137 verbose headers   'last-modified': 'Thu, 20 Jun 2019 10:03:24 GMT',
+137 verbose headers   vary: 'accept-encoding, accept',
+137 verbose headers   'x-amz-meta-rev': '16-dc86484720ede202a49bea429dd539ae',
+137 verbose headers   server: 'cloudflare' }
+138 silly get cb [ 304,
+138 silly get   { date: 'Fri, 28 Jun 2019 00:46:06 GMT',
+138 silly get     connection: 'keep-alive',
+138 silly get     'set-cookie': [ '__cfduid=d909276951710d564ccec2eecd84de1bc1561682766; expires=Sat, 27-Jun-20 00:46:06 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+138 silly get     'cf-cache-status': 'HIT',
+138 silly get     'cache-control': 'max-age=300',
+138 silly get     'cf-ray': '4edba4492d1525b9-ORD',
+138 silly get     age: '39',
+138 silly get     etag: '"8f3f5104779d374226f9d60d2a8f3d5c"',
+138 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+138 silly get     'last-modified': 'Thu, 20 Jun 2019 10:03:24 GMT',
+138 silly get     vary: 'accept-encoding, accept',
+138 silly get     'x-amz-meta-rev': '16-dc86484720ede202a49bea429dd539ae',
+138 silly get     server: 'cloudflare' } ]
+139 verbose etag https://registry.npmjs.org/napi-macros from cache
+140 verbose get saving napi-macros to C:\Users\thege\AppData\Roaming\npm-cache\registry.npmjs.org\napi-macros\.cache.json
+141 verbose correctMkdir C:\Users\thege\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+142 http 304 https://registry.npmjs.org/node-gyp-build
+143 verbose headers { date: 'Fri, 28 Jun 2019 00:46:06 GMT',
+143 verbose headers   connection: 'keep-alive',
+143 verbose headers   'set-cookie': [ '__cfduid=d8ab471239df9c43f177f373d2a753ff71561682766; expires=Sat, 27-Jun-20 00:46:06 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+143 verbose headers   'cf-cache-status': 'HIT',
+143 verbose headers   'cache-control': 'max-age=300',
+143 verbose headers   'cf-ray': '4edba4492ce2c54c-ORD',
+143 verbose headers   age: '6474',
+143 verbose headers   etag: '"da5afd25805df1c9cc74c075db453dc9"',
+143 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+143 verbose headers   'last-modified': 'Fri, 26 Apr 2019 14:45:21 GMT',
+143 verbose headers   vary: 'accept-encoding, accept',
+143 verbose headers   'x-amz-meta-rev': '25-ba22420aec912626ca5c080d3ea1ae5e',
+143 verbose headers   server: 'cloudflare' }
+144 silly get cb [ 304,
+144 silly get   { date: 'Fri, 28 Jun 2019 00:46:06 GMT',
+144 silly get     connection: 'keep-alive',
+144 silly get     'set-cookie': [ '__cfduid=d8ab471239df9c43f177f373d2a753ff71561682766; expires=Sat, 27-Jun-20 00:46:06 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+144 silly get     'cf-cache-status': 'HIT',
+144 silly get     'cache-control': 'max-age=300',
+144 silly get     'cf-ray': '4edba4492ce2c54c-ORD',
+144 silly get     age: '6474',
+144 silly get     etag: '"da5afd25805df1c9cc74c075db453dc9"',
+144 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+144 silly get     'last-modified': 'Fri, 26 Apr 2019 14:45:21 GMT',
+144 silly get     vary: 'accept-encoding, accept',
+144 silly get     'x-amz-meta-rev': '25-ba22420aec912626ca5c080d3ea1ae5e',
+144 silly get     server: 'cloudflare' } ]
+145 verbose etag https://registry.npmjs.org/node-gyp-build from cache
+146 verbose get saving node-gyp-build to C:\Users\thege\AppData\Roaming\npm-cache\registry.npmjs.org\node-gyp-build\.cache.json
+147 verbose correctMkdir C:\Users\thege\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+148 silly resolveWithNewModule napi-macros@1.8.2 checking installable status
+149 silly cache add args [ 'napi-macros@~1.8.1', null ]
+150 verbose cache add spec napi-macros@~1.8.1
+151 silly cache add parsed spec Result {
+151 silly cache add   raw: 'napi-macros@~1.8.1',
+151 silly cache add   scope: null,
+151 silly cache add   escapedName: 'napi-macros',
+151 silly cache add   name: 'napi-macros',
+151 silly cache add   rawSpec: '~1.8.1',
+151 silly cache add   spec: '>=1.8.1 <1.9.0',
+151 silly cache add   type: 'range' }
+152 silly addNamed napi-macros@>=1.8.1 <1.9.0
+153 verbose addNamed ">=1.8.1 <1.9.0" is a valid semver range for napi-macros
+154 silly addNameRange { name: 'napi-macros', range: '>=1.8.1 <1.9.0', hasData: false }
+155 silly mapToRegistry name napi-macros
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry https://registry.npmjs.org/
+158 silly mapToRegistry data Result {
+158 silly mapToRegistry   raw: 'napi-macros',
+158 silly mapToRegistry   scope: null,
+158 silly mapToRegistry   escapedName: 'napi-macros',
+158 silly mapToRegistry   name: 'napi-macros',
+158 silly mapToRegistry   rawSpec: '',
+158 silly mapToRegistry   spec: 'latest',
+158 silly mapToRegistry   type: 'tag' }
+159 silly mapToRegistry uri https://registry.npmjs.org/napi-macros
+160 verbose addNameRange registry:https://registry.npmjs.org/napi-macros not in flight; fetching
+161 http 304 https://registry.npmjs.org/fast-future
+162 verbose headers { date: 'Fri, 28 Jun 2019 00:46:06 GMT',
+162 verbose headers   connection: 'keep-alive',
+162 verbose headers   'set-cookie': [ '__cfduid=d6892ac0e55e2fe1c89f1100bae9ac9f91561682766; expires=Sat, 27-Jun-20 00:46:06 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+162 verbose headers   'cf-cache-status': 'HIT',
+162 verbose headers   'cache-control': 'max-age=300',
+162 verbose headers   'cf-ray': '4edba448bc1cc550-ORD',
+162 verbose headers   age: '2533',
+162 verbose headers   etag: '"3de5dc9e081ab4c78b811030e3d3f571"',
+162 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+162 verbose headers   'last-modified': 'Sun, 27 May 2018 00:24:49 GMT',
+162 verbose headers   vary: 'accept-encoding, accept',
+162 verbose headers   server: 'cloudflare' }
+163 silly get cb [ 304,
+163 silly get   { date: 'Fri, 28 Jun 2019 00:46:06 GMT',
+163 silly get     connection: 'keep-alive',
+163 silly get     'set-cookie': [ '__cfduid=d6892ac0e55e2fe1c89f1100bae9ac9f91561682766; expires=Sat, 27-Jun-20 00:46:06 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+163 silly get     'cf-cache-status': 'HIT',
+163 silly get     'cache-control': 'max-age=300',
+163 silly get     'cf-ray': '4edba448bc1cc550-ORD',
+163 silly get     age: '2533',
+163 silly get     etag: '"3de5dc9e081ab4c78b811030e3d3f571"',
+163 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+163 silly get     'last-modified': 'Sun, 27 May 2018 00:24:49 GMT',
+163 silly get     vary: 'accept-encoding, accept',
+163 silly get     server: 'cloudflare' } ]
+164 verbose etag https://registry.npmjs.org/fast-future from cache
+165 verbose get saving fast-future to C:\Users\thege\AppData\Roaming\npm-cache\registry.npmjs.org\fast-future\.cache.json
+166 verbose correctMkdir C:\Users\thege\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+167 silly resolveWithNewModule node-gyp-build@4.1.0 checking installable status
+168 silly cache add args [ 'node-gyp-build@~4.1.0', null ]
+169 verbose cache add spec node-gyp-build@~4.1.0
+170 silly cache add parsed spec Result {
+170 silly cache add   raw: 'node-gyp-build@~4.1.0',
+170 silly cache add   scope: null,
+170 silly cache add   escapedName: 'node-gyp-build',
+170 silly cache add   name: 'node-gyp-build',
+170 silly cache add   rawSpec: '~4.1.0',
+170 silly cache add   spec: '>=4.1.0 <4.2.0',
+170 silly cache add   type: 'range' }
+171 silly addNamed node-gyp-build@>=4.1.0 <4.2.0
+172 verbose addNamed ">=4.1.0 <4.2.0" is a valid semver range for node-gyp-build
+173 silly addNameRange { name: 'node-gyp-build',
+173 silly addNameRange   range: '>=4.1.0 <4.2.0',
+173 silly addNameRange   hasData: false }
+174 silly mapToRegistry name node-gyp-build
+175 silly mapToRegistry using default registry
+176 silly mapToRegistry registry https://registry.npmjs.org/
+177 silly mapToRegistry data Result {
+177 silly mapToRegistry   raw: 'node-gyp-build',
+177 silly mapToRegistry   scope: null,
+177 silly mapToRegistry   escapedName: 'node-gyp-build',
+177 silly mapToRegistry   name: 'node-gyp-build',
+177 silly mapToRegistry   rawSpec: '',
+177 silly mapToRegistry   spec: 'latest',
+177 silly mapToRegistry   type: 'tag' }
+178 silly mapToRegistry uri https://registry.npmjs.org/node-gyp-build
+179 verbose addNameRange registry:https://registry.npmjs.org/node-gyp-build not in flight; fetching
+180 verbose get https://registry.npmjs.org/napi-macros not expired, no request
+181 silly addNameRange number 2 { name: 'napi-macros', range: '>=1.8.1 <1.9.0', hasData: true }
+182 silly addNameRange versions [ 'napi-macros',
+182 silly addNameRange   [ '1.0.0',
+182 silly addNameRange     '1.1.0',
+182 silly addNameRange     '1.2.0',
+182 silly addNameRange     '1.3.0',
+182 silly addNameRange     '1.4.0',
+182 silly addNameRange     '1.4.1',
+182 silly addNameRange     '1.5.0',
+182 silly addNameRange     '1.6.0',
+182 silly addNameRange     '1.7.0',
+182 silly addNameRange     '1.8.0',
+182 silly addNameRange     '1.8.1',
+182 silly addNameRange     '1.8.2',
+182 silly addNameRange     '2.0.0' ] ]
+183 silly addNamed napi-macros@1.8.2
+184 verbose addNamed "1.8.2" is a plain semver version for napi-macros
+185 verbose get https://registry.npmjs.org/node-gyp-build not expired, no request
+186 silly addNameRange number 2 { name: 'node-gyp-build',
+186 silly addNameRange   range: '>=4.1.0 <4.2.0',
+186 silly addNameRange   hasData: true }
+187 silly addNameRange versions [ 'node-gyp-build',
+187 silly addNameRange   [ '1.0.0',
+187 silly addNameRange     '1.0.1',
+187 silly addNameRange     '1.1.0',
+187 silly addNameRange     '1.1.1',
+187 silly addNameRange     '2.0.0',
+187 silly addNameRange     '2.0.1',
+187 silly addNameRange     '2.0.2',
+187 silly addNameRange     '3.0.0',
+187 silly addNameRange     '3.0.1',
+187 silly addNameRange     '3.1.0',
+187 silly addNameRange     '3.2.0',
+187 silly addNameRange     '3.2.1',
+187 silly addNameRange     '3.2.2',
+187 silly addNameRange     '3.3.0',
+187 silly addNameRange     '3.4.0',
+187 silly addNameRange     '3.5.0',
+187 silly addNameRange     '3.5.1',
+187 silly addNameRange     '3.6.0',
+187 silly addNameRange     '3.7.0',
+187 silly addNameRange     '3.8.0',
+187 silly addNameRange     '4.0.0',
+187 silly addNameRange     '3.9.0',
+187 silly addNameRange     '4.1.0' ] ]
+188 silly addNamed node-gyp-build@4.1.0
+189 verbose addNamed "4.1.0" is a plain semver version for node-gyp-build
+190 silly cache afterAdd napi-macros@1.8.2
+191 verbose afterAdd C:\Users\thege\AppData\Roaming\npm-cache\napi-macros\1.8.2\package\package.json not in flight; writing
+192 verbose correctMkdir C:\Users\thege\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+193 silly cache afterAdd node-gyp-build@4.1.0
+194 verbose afterAdd C:\Users\thege\AppData\Roaming\npm-cache\node-gyp-build\4.1.0\package\package.json not in flight; writing
+195 verbose correctMkdir C:\Users\thege\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+196 silly resolveWithNewModule fast-future@1.0.2 checking installable status
+197 silly cache add args [ 'fast-future@~1.0.2', null ]
+198 verbose cache add spec fast-future@~1.0.2
+199 silly cache add parsed spec Result {
+199 silly cache add   raw: 'fast-future@~1.0.2',
+199 silly cache add   scope: null,
+199 silly cache add   escapedName: 'fast-future',
+199 silly cache add   name: 'fast-future',
+199 silly cache add   rawSpec: '~1.0.2',
+199 silly cache add   spec: '>=1.0.2 <1.1.0',
+199 silly cache add   type: 'range' }
+200 silly addNamed fast-future@>=1.0.2 <1.1.0
+201 verbose addNamed ">=1.0.2 <1.1.0" is a valid semver range for fast-future
+202 silly addNameRange { name: 'fast-future', range: '>=1.0.2 <1.1.0', hasData: false }
+203 silly mapToRegistry name fast-future
+204 silly mapToRegistry using default registry
+205 silly mapToRegistry registry https://registry.npmjs.org/
+206 silly mapToRegistry data Result {
+206 silly mapToRegistry   raw: 'fast-future',
+206 silly mapToRegistry   scope: null,
+206 silly mapToRegistry   escapedName: 'fast-future',
+206 silly mapToRegistry   name: 'fast-future',
+206 silly mapToRegistry   rawSpec: '',
+206 silly mapToRegistry   spec: 'latest',
+206 silly mapToRegistry   type: 'tag' }
+207 silly mapToRegistry uri https://registry.npmjs.org/fast-future
+208 verbose addNameRange registry:https://registry.npmjs.org/fast-future not in flight; fetching
+209 verbose get https://registry.npmjs.org/fast-future not expired, no request
+210 silly addNameRange number 2 { name: 'fast-future', range: '>=1.0.2 <1.1.0', hasData: true }
+211 silly addNameRange versions [ 'fast-future', [ '1.0.0', '1.0.1', '1.0.2' ] ]
+212 silly addNamed fast-future@1.0.2
+213 verbose addNamed "1.0.2" is a plain semver version for fast-future
+214 verbose afterAdd C:\Users\thege\AppData\Roaming\npm-cache\napi-macros\1.8.2\package\package.json written
+215 silly cache afterAdd fast-future@1.0.2
+216 verbose afterAdd C:\Users\thege\AppData\Roaming\npm-cache\fast-future\1.0.2\package\package.json not in flight; writing
+217 verbose correctMkdir C:\Users\thege\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+218 verbose afterAdd C:\Users\thege\AppData\Roaming\npm-cache\node-gyp-build\4.1.0\package\package.json written
+219 verbose afterAdd C:\Users\thege\AppData\Roaming\npm-cache\fast-future\1.0.2\package\package.json written
+220 silly loadAllDepsIntoIdealTree Finishing
+221 silly loadIdealTree Finishing
+222 silly currentTree tree-bot@1.0.0
+222 silly currentTree +-- abstract-leveldown@6.0.3
+222 silly currentTree +-- async-limiter@1.0.0
+222 silly currentTree +-- deferred-leveldown@5.0.1
+222 silly currentTree +-- discord.js@11.5.1
+222 silly currentTree +-- encoding-down@6.1.0
+222 silly currentTree +-- errno@0.1.7
+222 silly currentTree +-- immediate@3.2.3
+222 silly currentTree +-- inherits@2.0.4
+222 silly currentTree +-- is-typedarray@1.0.0
+222 silly currentTree +-- jpeg-js@0.3.5
+222 silly currentTree +-- level-codec@9.0.1
+222 silly currentTree +-- level-concat-iterator@2.0.1
+222 silly currentTree +-- level-errors@2.0.1
+222 silly currentTree +-- level-iterator-stream@4.0.1
+222 silly currentTree +-- level-js@4.0.1
+222 silly currentTree +-- level-packager@5.0.2
+222 silly currentTree +-- levelup@4.0.2
+222 silly currentTree +-- long@4.0.0
+222 silly currentTree +-- ltgt@2.2.1
+222 silly currentTree +-- opencollective-postinstall@2.0.2
+222 silly currentTree +-- opentype.js@0.4.11
+222 silly currentTree +-- pngjs@3.4.0
+222 silly currentTree +-- prism-media@0.0.3
+222 silly currentTree +-- prr@1.0.1
+222 silly currentTree +-- pureimage@0.1.6
+222 silly currentTree +-- readable-stream@3.4.0
+222 silly currentTree +-- safe-buffer@5.1.2
+222 silly currentTree +-- snekfetch@3.6.4
+222 silly currentTree +-- string_decoder@1.2.0
+222 silly currentTree +-- tweetnacl@1.0.1
+222 silly currentTree +-- typedarray-to-buffer@3.1.5
+222 silly currentTree +-- util-deprecate@1.0.2
+222 silly currentTree +-- ws@6.2.1
+222 silly currentTree `-- xtend@4.0.1
+223 silly idealTree tree-bot@1.0.0
+223 silly idealTree +-- abstract-leveldown@6.0.3
+223 silly idealTree +-- async-limiter@1.0.0
+223 silly idealTree +-- deferred-leveldown@5.0.1
+223 silly idealTree +-- discord.js@11.5.1
+223 silly idealTree +-- encoding-down@6.1.0
+223 silly idealTree +-- errno@0.1.7
+223 silly idealTree +-- fast-future@1.0.2
+223 silly idealTree +-- immediate@3.2.3
+223 silly idealTree +-- inherits@2.0.4
+223 silly idealTree +-- is-typedarray@1.0.0
+223 silly idealTree +-- jpeg-js@0.3.5
+223 silly idealTree +-- level-codec@9.0.1
+223 silly idealTree +-- level-concat-iterator@2.0.1
+223 silly idealTree +-- level-errors@2.0.1
+223 silly idealTree +-- level-iterator-stream@4.0.1
+223 silly idealTree +-- level-js@4.0.1
+223 silly idealTree +-- level-packager@5.0.2
+223 silly idealTree +-- level@5.0.1
+223 silly idealTree +-- leveldown@5.1.0
+223 silly idealTree +-- levelup@4.0.2
+223 silly idealTree +-- long@4.0.0
+223 silly idealTree +-- ltgt@2.2.1
+223 silly idealTree +-- napi-macros@1.8.2
+223 silly idealTree +-- node-gyp-build@4.1.0
+223 silly idealTree +-- opencollective-postinstall@2.0.2
+223 silly idealTree +-- opentype.js@0.4.11
+223 silly idealTree +-- pngjs@3.4.0
+223 silly idealTree +-- prism-media@0.0.3
+223 silly idealTree +-- prr@1.0.1
+223 silly idealTree +-- pureimage@0.1.6
+223 silly idealTree +-- readable-stream@3.4.0
+223 silly idealTree +-- safe-buffer@5.1.2
+223 silly idealTree +-- snekfetch@3.6.4
+223 silly idealTree +-- string_decoder@1.2.0
+223 silly idealTree +-- tweetnacl@1.0.1
+223 silly idealTree +-- typedarray-to-buffer@3.1.5
+223 silly idealTree +-- util-deprecate@1.0.2
+223 silly idealTree +-- ws@6.2.1
+223 silly idealTree `-- xtend@4.0.1
+224 silly generateActionsToTake Starting
+225 silly install generateActionsToTake
+226 silly generateActionsToTake Finishing
+227 silly diffTrees action count 5
+228 silly diffTrees add fast-future@1.0.2
+229 silly diffTrees add napi-macros@1.8.2
+230 silly diffTrees add node-gyp-build@4.1.0
+231 silly diffTrees add leveldown@5.1.0
+232 silly diffTrees add level@5.0.1
+233 silly decomposeActions action count 40
+234 silly decomposeActions fetch fast-future@1.0.2
+235 silly decomposeActions extract fast-future@1.0.2
+236 silly decomposeActions test fast-future@1.0.2
+237 silly decomposeActions preinstall fast-future@1.0.2
+238 silly decomposeActions build fast-future@1.0.2
+239 silly decomposeActions install fast-future@1.0.2
+240 silly decomposeActions postinstall fast-future@1.0.2
+241 silly decomposeActions finalize fast-future@1.0.2
+242 silly decomposeActions fetch napi-macros@1.8.2
+243 silly decomposeActions extract napi-macros@1.8.2
+244 silly decomposeActions test napi-macros@1.8.2
+245 silly decomposeActions preinstall napi-macros@1.8.2
+246 silly decomposeActions build napi-macros@1.8.2
+247 silly decomposeActions install napi-macros@1.8.2
+248 silly decomposeActions postinstall napi-macros@1.8.2
+249 silly decomposeActions finalize napi-macros@1.8.2
+250 silly decomposeActions fetch node-gyp-build@4.1.0
+251 silly decomposeActions extract node-gyp-build@4.1.0
+252 silly decomposeActions test node-gyp-build@4.1.0
+253 silly decomposeActions preinstall node-gyp-build@4.1.0
+254 silly decomposeActions build node-gyp-build@4.1.0
+255 silly decomposeActions install node-gyp-build@4.1.0
+256 silly decomposeActions postinstall node-gyp-build@4.1.0
+257 silly decomposeActions finalize node-gyp-build@4.1.0
+258 silly decomposeActions fetch leveldown@5.1.0
+259 silly decomposeActions extract leveldown@5.1.0
+260 silly decomposeActions test leveldown@5.1.0
+261 silly decomposeActions preinstall leveldown@5.1.0
+262 silly decomposeActions build leveldown@5.1.0
+263 silly decomposeActions install leveldown@5.1.0
+264 silly decomposeActions postinstall leveldown@5.1.0
+265 silly decomposeActions finalize leveldown@5.1.0
+266 silly decomposeActions fetch level@5.0.1
+267 silly decomposeActions extract level@5.0.1
+268 silly decomposeActions test level@5.0.1
+269 silly decomposeActions preinstall level@5.0.1
+270 silly decomposeActions build level@5.0.1
+271 silly decomposeActions install level@5.0.1
+272 silly decomposeActions postinstall level@5.0.1
+273 silly decomposeActions finalize level@5.0.1
+274 silly runTopLevelLifecycles Starting
+275 silly executeActions Starting
+276 silly install executeActions
+277 silly doSerial global-install 0
+278 silly doParallel fetch 5
+279 verbose correctMkdir C:\Users\thege\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+280 verbose lock using C:\Users\thege\AppData\Roaming\npm-cache\_locks\staging-48adf1c21a8c7b2d.lock for C:\Users\thege\Documents\Tree-Bot\node_modules\.staging
+281 silly doParallel extract 5
+282 silly extract fast-future@1.0.2
+283 silly extract napi-macros@1.8.2
+284 silly extract node-gyp-build@4.1.0
+285 silly extract leveldown@5.1.0
+286 silly extract level@5.0.1
+287 verbose unbuild node_modules\.staging\napi-macros-ce81ca91
+288 verbose unbuild node_modules\.staging\fast-future-3e66a7ff
+289 verbose unbuild node_modules\.staging\leveldown-7987b60f
+290 verbose unbuild node_modules\.staging\level-06f3e635
+291 verbose unbuild node_modules\.staging\node-gyp-build-d4853e15
+292 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\napi-macros-ce81ca91 is being purged from base C:\Users\thege\Documents\Tree-Bot
+293 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\napi-macros-ce81ca91
+294 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\fast-future-3e66a7ff is being purged from base C:\Users\thege\Documents\Tree-Bot
+295 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\fast-future-3e66a7ff
+296 verbose tar unpack C:\Users\thege\AppData\Roaming\npm-cache\napi-macros\1.8.2\package.tgz
+297 verbose tar unpacking to C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\napi-macros-ce81ca91
+298 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\napi-macros-ce81ca91 is being purged
+299 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\napi-macros-ce81ca91
+300 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\leveldown-7987b60f is being purged from base C:\Users\thege\Documents\Tree-Bot
+301 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\leveldown-7987b60f
+302 verbose tar unpack C:\Users\thege\AppData\Roaming\npm-cache\fast-future\1.0.2\package.tgz
+303 verbose tar unpacking to C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\fast-future-3e66a7ff
+304 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\fast-future-3e66a7ff is being purged
+305 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\fast-future-3e66a7ff
+306 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\level-06f3e635 is being purged from base C:\Users\thege\Documents\Tree-Bot
+307 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\level-06f3e635
+308 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\node-gyp-build-d4853e15 is being purged from base C:\Users\thege\Documents\Tree-Bot
+309 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\node-gyp-build-d4853e15
+310 silly gunzTarPerm modes [ '777', '666' ]
+311 verbose tar unpack C:\Users\thege\AppData\Roaming\npm-cache\leveldown\5.1.0\package.tgz
+312 verbose tar unpacking to C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\leveldown-7987b60f
+313 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\leveldown-7987b60f is being purged
+314 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\leveldown-7987b60f
+315 silly gunzTarPerm modes [ '777', '666' ]
+316 verbose tar unpack C:\Users\thege\AppData\Roaming\npm-cache\level\5.0.1\package.tgz
+317 verbose tar unpacking to C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\level-06f3e635
+318 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\level-06f3e635 is being purged
+319 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\level-06f3e635
+320 verbose tar unpack C:\Users\thege\AppData\Roaming\npm-cache\node-gyp-build\4.1.0\package.tgz
+321 verbose tar unpacking to C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\node-gyp-build-d4853e15
+322 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\node-gyp-build-d4853e15 is being purged
+323 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\node-gyp-build-d4853e15
+324 silly gunzTarPerm modes [ '777', '666' ]
+325 silly gunzTarPerm modes [ '777', '666' ]
+326 silly gunzTarPerm modes [ '777', '666' ]
+327 silly gunzTarPerm extractEntry package.json
+328 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+329 silly gunzTarPerm extractEntry package.json
+330 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+331 silly gunzTarPerm extractEntry package.json
+332 silly gunzTarPerm extractEntry package.json
+333 silly gunzTarPerm extractEntry package.json
+334 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+335 silly gunzTarPerm extractEntry .npmignore
+336 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+337 silly gunzTarPerm extractEntry LICENCE
+338 silly gunzTarPerm modified mode [ 'LICENCE', 420, 438 ]
+339 silly gunzTarPerm extractEntry binding.cc
+340 silly gunzTarPerm extractEntry binding.gyp
+341 silly gunzTarPerm extractEntry browser.js
+342 silly gunzTarPerm extractEntry CHANGELOG.md
+343 silly gunzTarPerm extractEntry bin.js
+344 silly gunzTarPerm modified mode [ 'bin.js', 493, 511 ]
+345 silly gunzTarPerm extractEntry build-test.js
+346 silly gunzTarPerm modified mode [ 'build-test.js', 493, 511 ]
+347 silly gunzTarPerm extractEntry index.js
+348 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+349 silly gunzTarPerm extractEntry LICENSE
+350 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+351 silly gunzTarPerm extractEntry napi-macros.h
+352 silly gunzTarPerm modified mode [ 'napi-macros.h', 420, 438 ]
+353 silly gunzTarPerm extractEntry README.md
+354 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+355 silly gunzTarPerm extractEntry test.js
+356 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+357 silly gunzTarPerm extractEntry benchmark.js
+358 silly gunzTarPerm modified mode [ 'benchmark.js', 420, 438 ]
+359 silly gunzTarPerm extractEntry CONTRIBUTORS.md
+360 silly gunzTarPerm extractEntry index.js
+361 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+362 silly gunzTarPerm extractEntry LICENSE
+363 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+364 silly gunzTarPerm extractEntry binding.js
+365 silly gunzTarPerm extractEntry chained-batch.js
+366 silly gunzTarPerm extractEntry CHANGELOG.md
+367 silly gunzTarPerm extractEntry CONTRIBUTORS.md
+368 silly gunzTarPerm extractEntry iterator.js
+369 silly gunzTarPerm extractEntry fast-future.js
+370 silly gunzTarPerm modified mode [ 'fast-future.js', 420, 438 ]
+371 silly gunzTarPerm extractEntry example.js
+372 silly gunzTarPerm modified mode [ 'example.js', 420, 438 ]
+373 silly gunzTarPerm extractEntry example/binding.gyp
+374 silly gunzTarPerm modified mode [ 'example/binding.gyp', 420, 438 ]
+375 silly gunzTarPerm extractEntry level.js
+376 silly gunzTarPerm extractEntry LICENSE.md
+377 silly gunzTarPerm extractEntry optional.js
+378 silly gunzTarPerm modified mode [ 'optional.js', 493, 511 ]
+379 silly gunzTarPerm extractEntry README.md
+380 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+381 silly gunzTarPerm extractEntry .travis.yml
+382 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+383 silly gunzTarPerm extractEntry readme.md
+384 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+385 silly gunzTarPerm extractEntry leveldown.js
+386 silly gunzTarPerm extractEntry LICENSE.md
+387 silly gunzTarPerm extractEntry example/example.js
+388 silly gunzTarPerm modified mode [ 'example/example.js', 420, 438 ]
+389 silly gunzTarPerm extractEntry example/index.c
+390 silly gunzTarPerm modified mode [ 'example/index.c', 420, 438 ]
+391 silly gunzTarPerm extractEntry README.md
+392 silly gunzTarPerm extractEntry test-browser.js
+393 silly gunzTarPerm extractEntry README.md
+394 silly gunzTarPerm extractEntry UPGRADING.md
+395 silly gunzTarPerm extractEntry example/package.json
+396 silly gunzTarPerm modified mode [ 'example/package.json', 420, 438 ]
+397 silly gunzTarPerm extractEntry test.js
+398 silly gunzTarPerm extractEntry UPGRADING.md
+399 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/build_detect_platform
+400 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/autocompact_test.cc
+401 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/builder.cc
+402 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/builder.h
+403 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/c_test.c
+404 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/c.cc
+405 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/corruption_test.cc
+406 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/db_bench.cc
+407 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/db_impl.cc
+408 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\node-gyp-build-d4853e15\node_modules is being purged
+409 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\node-gyp-build-d4853e15\node_modules
+410 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/db_impl.h
+411 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/db_iter.cc
+412 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/db_iter.h
+413 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\napi-macros-ce81ca91\node_modules is being purged
+414 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\napi-macros-ce81ca91\node_modules
+415 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\fast-future-3e66a7ff\node_modules is being purged
+416 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\fast-future-3e66a7ff\node_modules
+417 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/db_test.cc
+418 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/dbformat_test.cc
+419 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/dbformat.cc
+420 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/dbformat.h
+421 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/dumpfile.cc
+422 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/fault_injection_test.cc
+423 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\level-06f3e635\node_modules is being purged
+424 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\level-06f3e635\node_modules
+425 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/filename_test.cc
+426 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/filename.cc
+427 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/filename.h
+428 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/leveldbutil.cc
+429 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/log_format.h
+430 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/log_reader.cc
+431 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/log_reader.h
+432 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/log_test.cc
+433 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/log_writer.cc
+434 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/log_writer.h
+435 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/memtable.cc
+436 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/memtable.h
+437 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/recovery_test.cc
+438 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/repair.cc
+439 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/skiplist_test.cc
+440 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/skiplist.h
+441 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/snapshot.h
+442 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/table_cache.cc
+443 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/table_cache.h
+444 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/version_edit_test.cc
+445 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/version_edit.cc
+446 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/version_edit.h
+447 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/version_set_test.cc
+448 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/version_set.cc
+449 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/version_set.h
+450 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/write_batch_internal.h
+451 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/write_batch_test.cc
+452 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/db/write_batch.cc
+453 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/helpers/memenv/memenv_test.cc
+454 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/helpers/memenv/memenv.cc
+455 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/helpers/memenv/memenv.h
+456 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/c.h
+457 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/cache.h
+458 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/comparator.h
+459 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/db.h
+460 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/dumpfile.h
+461 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/env.h
+462 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/filter_policy.h
+463 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/iterator.h
+464 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/options.h
+465 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/slice.h
+466 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/status.h
+467 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/table_builder.h
+468 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/table.h
+469 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/include/leveldb/write_batch.h
+470 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/issues/issue178_test.cc
+471 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/issues/issue200_test.cc
+472 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/LICENSE
+473 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/Makefile
+474 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/port/atomic_pointer.h
+475 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/port/port_example.h
+476 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/port/port_posix_sse.cc
+477 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/port/port_posix.cc
+478 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/port/port_posix.h
+479 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/port/port.h
+480 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/port/README
+481 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/port/thread_annotations.h
+482 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/port/win/stdint.h
+483 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/README.md
+484 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/block_builder.cc
+485 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/block_builder.h
+486 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/block.cc
+487 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/block.h
+488 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/filter_block_test.cc
+489 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/filter_block.cc
+490 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/filter_block.h
+491 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/format.cc
+492 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/format.h
+493 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/iterator_wrapper.h
+494 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/iterator.cc
+495 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/merger.cc
+496 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/merger.h
+497 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/table_builder.cc
+498 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/table_test.cc
+499 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/table.cc
+500 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/two_level_iterator.cc
+501 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/table/two_level_iterator.h
+502 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/arena_test.cc
+503 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/arena.cc
+504 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/arena.h
+505 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/bloom_test.cc
+506 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/bloom.cc
+507 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/cache_test.cc
+508 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/cache.cc
+509 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/coding_test.cc
+510 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/coding.cc
+511 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/coding.h
+512 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/comparator.cc
+513 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/crc32c_test.cc
+514 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/crc32c.cc
+515 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/crc32c.h
+516 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/env_posix_test_helper.h
+517 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/env_posix_test.cc
+518 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/env_posix.cc
+519 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/env_test.cc
+520 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/env.cc
+521 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/filter_policy.cc
+522 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/hash_test.cc
+523 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/hash.cc
+524 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/hash.h
+525 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/histogram.cc
+526 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/histogram.h
+527 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/logging.cc
+528 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/logging.h
+529 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/mutexlock.h
+530 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/options.cc
+531 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/posix_logger.h
+532 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/random.h
+533 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/status.cc
+534 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/testharness.cc
+535 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/testharness.h
+536 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/testutil.cc
+537 silly gunzTarPerm extractEntry deps/leveldb/leveldb-1.20/util/testutil.h
+538 silly gunzTarPerm extractEntry deps/leveldb/leveldb.gyp
+539 silly gunzTarPerm extractEntry deps/leveldb/port-libuv/atomic_pointer_win.h
+540 silly gunzTarPerm extractEntry deps/leveldb/port-libuv/env_win.cc
+541 silly gunzTarPerm extractEntry deps/leveldb/port-libuv/port_uv.cc
+542 silly gunzTarPerm extractEntry deps/leveldb/port-libuv/port_uv.h
+543 silly gunzTarPerm extractEntry deps/leveldb/port-libuv/port_uv.h.bak
+544 silly gunzTarPerm extractEntry deps/leveldb/port-libuv/stdint-msvc2008.h
+545 silly gunzTarPerm extractEntry deps/leveldb/port-libuv/uv_condvar_posix.cc
+546 silly gunzTarPerm extractEntry deps/leveldb/port-libuv/uv_condvar.h
+547 silly gunzTarPerm extractEntry deps/leveldb/port-libuv/win_logger.cc
+548 silly gunzTarPerm extractEntry deps/leveldb/port-libuv/win_logger.h
+549 silly gunzTarPerm extractEntry deps/snappy/freebsd/config.h
+550 silly gunzTarPerm extractEntry deps/snappy/freebsd/snappy-stubs-public.h
+551 silly gunzTarPerm extractEntry deps/snappy/linux/config.h
+552 silly gunzTarPerm extractEntry deps/snappy/linux/snappy-stubs-public.h
+553 silly gunzTarPerm extractEntry deps/snappy/mac/config.h
+554 silly gunzTarPerm extractEntry deps/snappy/mac/snappy-stubs-public.h
+555 silly gunzTarPerm extractEntry deps/snappy/openbsd/config.h
+556 silly gunzTarPerm extractEntry deps/snappy/openbsd/snappy-stubs-public.h
+557 silly gunzTarPerm extractEntry deps/snappy/snappy.gyp
+558 silly gunzTarPerm extractEntry deps/snappy/snappy/cmake/config.h.in
+559 silly gunzTarPerm extractEntry deps/snappy/snappy/cmake/SnappyConfig.cmake
+560 silly gunzTarPerm extractEntry deps/snappy/snappy/COPYING
+561 silly gunzTarPerm extractEntry deps/snappy/snappy/README.md
+562 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy_unittest.cc
+563 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy-c.cc
+564 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy-c.h
+565 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy-internal.h
+566 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy-sinksource.cc
+567 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy-sinksource.h
+568 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy-stubs-internal.cc
+569 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy-stubs-internal.h
+570 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy-stubs-public.h.in
+571 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy-test.cc
+572 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy-test.h
+573 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy.cc
+574 silly gunzTarPerm extractEntry deps/snappy/snappy/snappy.h
+575 silly gunzTarPerm extractEntry deps/snappy/solaris/config.h
+576 silly gunzTarPerm extractEntry deps/snappy/solaris/snappy-stubs-public.h
+577 silly gunzTarPerm extractEntry deps/snappy/win32/config.h
+578 silly gunzTarPerm extractEntry deps/snappy/win32/snappy-stubs-public.h
+579 silly gunzTarPerm extractEntry prebuilds/android-arm/node.napi.armv7.node
+580 silly gunzTarPerm extractEntry prebuilds/android-arm64/node.napi.armv8.node
+581 silly gunzTarPerm extractEntry prebuilds/darwin-x64/node.napi.node
+582 silly gunzTarPerm extractEntry prebuilds/linux-arm/node.napi.armv7.node
+583 silly gunzTarPerm extractEntry prebuilds/linux-arm64/node.napi.armv8.node
+584 silly gunzTarPerm extractEntry prebuilds/linux-x64/node.napi.musl.node
+585 silly gunzTarPerm extractEntry prebuilds/linux-x64/node.napi.node
+586 silly gunzTarPerm extractEntry prebuilds/win32-x64/node.napi.node
+587 silly gunzTarPerm extractEntry scripts/cross-compile
+588 silly gentlyRm C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\leveldown-7987b60f\node_modules is being purged
+589 verbose gentlyRm don't care about contents; nuking C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\leveldown-7987b60f\node_modules
+590 silly doParallel preinstall 5
+591 silly preinstall fast-future@1.0.2 C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\fast-future-3e66a7ff
+592 info lifecycle fast-future@1.0.2~preinstall: fast-future@1.0.2
+593 silly preinstall napi-macros@1.8.2 C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\napi-macros-ce81ca91
+594 info lifecycle napi-macros@1.8.2~preinstall: napi-macros@1.8.2
+595 silly preinstall node-gyp-build@4.1.0 C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\node-gyp-build-d4853e15
+596 info lifecycle node-gyp-build@4.1.0~preinstall: node-gyp-build@4.1.0
+597 silly preinstall leveldown@5.1.0 C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\leveldown-7987b60f
+598 info lifecycle leveldown@5.1.0~preinstall: leveldown@5.1.0
+599 silly preinstall level@5.0.1 C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\level-06f3e635
+600 info lifecycle level@5.0.1~preinstall: level@5.0.1
+601 silly lifecycle fast-future@1.0.2~preinstall: no script for preinstall, continuing
+602 silly lifecycle napi-macros@1.8.2~preinstall: no script for preinstall, continuing
+603 silly lifecycle node-gyp-build@4.1.0~preinstall: no script for preinstall, continuing
+604 silly lifecycle leveldown@5.1.0~preinstall: no script for preinstall, continuing
+605 silly lifecycle level@5.0.1~preinstall: no script for preinstall, continuing
+606 silly doReverseSerial remove 0
+607 silly doSerial move 0
+608 silly doSerial finalize 5
+609 silly finalize C:\Users\thege\Documents\Tree-Bot\node_modules\fast-future
+610 silly finalize C:\Users\thege\Documents\Tree-Bot\node_modules\napi-macros
+611 silly finalize C:\Users\thege\Documents\Tree-Bot\node_modules\node-gyp-build
+612 silly finalize C:\Users\thege\Documents\Tree-Bot\node_modules\leveldown
+613 silly finalize C:\Users\thege\Documents\Tree-Bot\node_modules\level
+614 silly doSerial build 5
+615 silly build fast-future@1.0.2
+616 info linkStuff fast-future@1.0.2
+617 silly linkStuff fast-future@1.0.2 has C:\Users\thege\Documents\Tree-Bot\node_modules as its parent node_modules
+618 verbose linkBins fast-future@1.0.2
+619 verbose linkMans fast-future@1.0.2
+620 silly build napi-macros@1.8.2
+621 info linkStuff napi-macros@1.8.2
+622 silly linkStuff napi-macros@1.8.2 has C:\Users\thege\Documents\Tree-Bot\node_modules as its parent node_modules
+623 verbose linkBins napi-macros@1.8.2
+624 verbose linkMans napi-macros@1.8.2
+625 silly build node-gyp-build@4.1.0
+626 info linkStuff node-gyp-build@4.1.0
+627 silly linkStuff node-gyp-build@4.1.0 has C:\Users\thege\Documents\Tree-Bot\node_modules as its parent node_modules
+628 verbose linkBins node-gyp-build@4.1.0
+629 verbose link bins [ { 'node-gyp-build': './bin.js',
+629 verbose link bins     'node-gyp-build-optional': './optional.js',
+629 verbose link bins     'node-gyp-build-test': './build-test.js' },
+629 verbose link bins   'C:\\Users\\thege\\Documents\\Tree-Bot\\node_modules\\.bin',
+629 verbose link bins   false ]
+630 verbose linkMans node-gyp-build@4.1.0
+631 silly build leveldown@5.1.0
+632 info linkStuff leveldown@5.1.0
+633 silly linkStuff leveldown@5.1.0 has C:\Users\thege\Documents\Tree-Bot\node_modules as its parent node_modules
+634 verbose linkBins leveldown@5.1.0
+635 verbose linkMans leveldown@5.1.0
+636 silly build level@5.0.1
+637 info linkStuff level@5.0.1
+638 silly linkStuff level@5.0.1 has C:\Users\thege\Documents\Tree-Bot\node_modules as its parent node_modules
+639 verbose linkBins level@5.0.1
+640 verbose linkMans level@5.0.1
+641 silly doSerial global-link 0
+642 silly doParallel update-linked 0
+643 silly doSerial install 5
+644 silly install fast-future@1.0.2 C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\fast-future-3e66a7ff
+645 info lifecycle fast-future@1.0.2~install: fast-future@1.0.2
+646 silly lifecycle fast-future@1.0.2~install: no script for install, continuing
+647 silly install napi-macros@1.8.2 C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\napi-macros-ce81ca91
+648 info lifecycle napi-macros@1.8.2~install: napi-macros@1.8.2
+649 silly lifecycle napi-macros@1.8.2~install: no script for install, continuing
+650 silly install node-gyp-build@4.1.0 C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\node-gyp-build-d4853e15
+651 info lifecycle node-gyp-build@4.1.0~install: node-gyp-build@4.1.0
+652 silly lifecycle node-gyp-build@4.1.0~install: no script for install, continuing
+653 silly install leveldown@5.1.0 C:\Users\thege\Documents\Tree-Bot\node_modules\.staging\leveldown-7987b60f
+654 info lifecycle leveldown@5.1.0~install: leveldown@5.1.0
+655 verbose lifecycle leveldown@5.1.0~install: unsafe-perm in lifecycle true
+656 verbose lifecycle leveldown@5.1.0~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\thege\Documents\Tree-Bot\node_modules\leveldown\node_modules\.bin;C:\Users\thege\Documents\Tree-Bot\node_modules\.bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.4.3\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.4.3\bin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Windows Live\Shared;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ChucK\/bin;C:\Ruby23\bin;D:\Ruby23\bin;C:\Users\thege\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\thege\AppData\Local\Programs\Python\Python35-32\;C:\Users\thege\AppData\Local\Microsoft\WindowsApps;C:\Users\thege\AppData\Local\atom\bin;C:\Users\thege\AppData\Roaming\npm;C:\adb;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\OpenVPN\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GTK2-Runtime\bin;C:\TDM-GCC-64\bin;C:\Program Files\erl10.1\bin;C:\Program Files (x86)\Elixir\bin;C:\WINDOWS\system32\config\systemprofile\.mix\escripts;C:\Program Files\Haskell Platform\8.4.3\mingw\bin;C:\Go\bin;C:\Users\thege\AppData\Roaming\cabal\bin;C:\Users\thege\AppData\Roaming\local\bin;C:\Users\thege\.cargo\bin;C:\Users\thege\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\thege\AppData\Local\Programs\Python\Python37-32\;C:\Ruby23\bin;D:\Ruby23\bin;C:\Users\thege\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\thege\AppData\Local\Programs\Python\Python35-32\;C:\Users\thege\AppData\Local\Microsoft\WindowsApps;C:\Users\thege\AppData\Local\atom\bin;C:\Users\thege\AppData\Local\Microsoft\WindowsApps;C:\Users\thege\AppData\Roaming\npm;C:\MinGW;C:\libjpeg-turbo64\bin;C:\Users\thege\go\bin
+657 verbose lifecycle leveldown@5.1.0~install: CWD: C:\Users\thege\Documents\Tree-Bot\node_modules\leveldown
+658 silly lifecycle leveldown@5.1.0~install: Args: [ '/d /s /c', 'node-gyp-build' ]
+659 silly lifecycle leveldown@5.1.0~install: Returned: code: 1  signal: null
+660 info lifecycle leveldown@5.1.0~install: Failed to exec install script
+661 verbose unlock done using C:\Users\thege\AppData\Roaming\npm-cache\_locks\staging-48adf1c21a8c7b2d.lock for C:\Users\thege\Documents\Tree-Bot\node_modules\.staging
+662 silly rollbackFailedOptional Starting
+663 silly rollbackFailedOptional Finishing
+664 silly runTopLevelLifecycles Finishing
+665 silly install printInstalled
+666 warn discord.js@11.5.1 requires a peer of bufferutil@^4.0.0 but none was installed.
+667 verbose If you need help, you may report this error at:
+667 verbose     <https://github.com/npm/npm/issues>
+668 warn discord.js@11.5.1 requires a peer of erlpack@discordapp/erlpack but none was installed.
+669 verbose If you need help, you may report this error at:
+669 verbose     <https://github.com/npm/npm/issues>
+670 warn discord.js@11.5.1 requires a peer of libsodium-wrappers@^0.7.3 but none was installed.
+671 verbose If you need help, you may report this error at:
+671 verbose     <https://github.com/npm/npm/issues>
+672 warn discord.js@11.5.1 requires a peer of node-opus@^0.2.7 but none was installed.
+673 verbose If you need help, you may report this error at:
+673 verbose     <https://github.com/npm/npm/issues>
+674 warn discord.js@11.5.1 requires a peer of opusscript@^0.0.6 but none was installed.
+675 verbose If you need help, you may report this error at:
+675 verbose     <https://github.com/npm/npm/issues>
+676 warn discord.js@11.5.1 requires a peer of sodium@^2.0.3 but none was installed.
+677 verbose If you need help, you may report this error at:
+677 verbose     <https://github.com/npm/npm/issues>
+678 warn discord.js@11.5.1 requires a peer of @discordjs/uws@^10.149.0 but none was installed.
+679 verbose If you need help, you may report this error at:
+679 verbose     <https://github.com/npm/npm/issues>
+680 verbose stack Error: leveldown@5.1.0 install: `node-gyp-build`
+680 verbose stack Exit status 1
+680 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+680 verbose stack     at emitTwo (events.js:106:13)
+680 verbose stack     at EventEmitter.emit (events.js:191:7)
+680 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+680 verbose stack     at emitTwo (events.js:106:13)
+680 verbose stack     at ChildProcess.emit (events.js:191:7)
+680 verbose stack     at maybeClose (internal/child_process.js:920:16)
+680 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+681 verbose pkgid leveldown@5.1.0
+682 verbose cwd C:\Users\thege\Documents\Tree-Bot
+683 error Windows_NT 10.0.17134
+684 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "level"
+685 error node v6.11.4
+686 error npm  v3.10.10
+687 error code ELIFECYCLE
+688 error leveldown@5.1.0 install: `node-gyp-build`
+688 error Exit status 1
+689 error Failed at the leveldown@5.1.0 install script 'node-gyp-build'.
+689 error Make sure you have the latest version of node.js and npm installed.
+689 error If you do, this is most likely a problem with the leveldown package,
+689 error not with npm itself.
+689 error Tell the author that this fails on your system:
+689 error     node-gyp-build
+689 error You can get information on how to open an issue for this project with:
+689 error     npm bugs leveldown
+689 error Or if that isn't available, you can get their info via:
+689 error     npm owner ls leveldown
+689 error There is likely additional logging output above.
+690 verbose exit [ 1, true ]
